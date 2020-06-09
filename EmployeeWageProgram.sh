@@ -4,7 +4,7 @@ echo "Welcome to Employee Wage Computation Program"
 
 CheckAttendance=$(( RANDOM%2 ))
 
-if [ $checkAttendance -eq 1 ]
+if [ $CheckAttendance -eq 1 ]
 then
 	echo "Employee is Present"
 else
