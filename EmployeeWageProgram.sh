@@ -12,6 +12,8 @@ TotalSalary=0
 WorkingHrsperDay=0
 TotalWorkingHrs=0
 
+workHrs() {
+
 for(( days=0; days<=$max_work_days; days++ ))
 do
 	if [ $TotalWorkingHrs -le 100 ]
@@ -49,3 +51,7 @@ done
 
 echo "Employee wage for a month is : $TotalSalary"
 
+
+}
+
+workHrs
